@@ -17,6 +17,6 @@ public class Main {
   
   private void foo(){
   
-    System.out.println('Main.foo');
+    System.out.println("Main.foo");
   }
 }
