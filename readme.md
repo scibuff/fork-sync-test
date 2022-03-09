@@ -20,8 +20,19 @@ git remote set-url --push upstream DISABLE
 git remote -v
 ```
 
-Then:
+## Make Changes
+
 - create a new file, commit it and push changes to origin
 - create a different file in the upstream, commit it and push changes to upstream
 - sync the local repo with upstream (resolving any conflicts)
 - push changes to origin
+
+## Sync with Upstream
+
+```bash
+git fetch upstream
+git rebase upstream/main
+
+git pull 
+git push origin
+```
