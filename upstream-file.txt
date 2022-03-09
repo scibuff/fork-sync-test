@@ -1,0 +1,18 @@
+This is a sample file in the upstream with several lines. 
+
+This file is to be used for sync testing by:
+
+1.) editting different lines in upstream and origin to confirm changes can be auto-merged
+2.) editting the same line(s) in upstream and origin, thus creating a conflict to be manually resolved
+
+Here's some very basic code snippet
+
+public class Main {
+
+  public static void main(String[] args){
+
+    System.out.println("Hello World");
+  }
+  
+  private void foo(){}
+}
