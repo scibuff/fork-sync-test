@@ -17,7 +17,7 @@ cd fork-sync-test
 git remote add upstream https://github.com/scibuff/fork-sync-test.git
 git remote set-url --push upstream DISABLE
 
-git remove -v
+git remote -v
 ```
 
 Then:
